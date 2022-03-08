@@ -1,0 +1,59 @@
+{
+  "5056407": {
+    "name": "Paolo",
+    "surname": "Dell'Orti",
+    "email": "paolo@dellorti.com",
+    "books": [
+      {
+        "title": "Il fu Mattia Pascal",
+        "author": "Luigi Pirandello",
+        "year": 1904,
+        "plot": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum!",
+        "addingDate": "5/1/2022",
+        "readingCounter": 1,
+        "ISBN": 9780946626182,
+        "id": 111111
+      },
+      {
+        "title": "Ti prendo e ti porto via",
+        "author": "Niccolò Ammaniti",
+        "year": 1999,
+        "plot": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum!",
+        "addingDate": "15/2/2022",
+        "readingCounter": 3,
+        "ISBN": 9781841958248,
+        "id": 222222
+      },
+      {
+        "title": "Come Dio comanda",
+        "author": "Niccolò Ammaniti",
+        "year": 2006,
+        "plot": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum!",
+        "addingDate": "15/2/2022",
+        "readingCounter": 2,
+        "ISBN": 9788439720836,
+        "id": 333333
+      },
+      {
+        "title": "Norwegian Wood",
+        "author": "Haruki Murakami",
+        "year": 1987,
+        "plot": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum!",
+        "addingDate": "29/2/2022",
+        "readingCounter": 2,
+        "ISBN": 9780099448822,
+        "id": 444444
+      },
+      {
+        "title": "Sapiens. Da animali a dèi: Breve storia dell'umanità.",
+        "author": "Yuval Noah Harari",
+        "year": 2011,
+        "plot": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum!",
+        "addingDate": "8/3/2022",
+        "readingCounter": 1,
+        "ISBN": 9788845296499,
+        "id": 555555
+      }
+    ]
+  }
+}
