@@ -59,7 +59,7 @@ export default {
     }
   },
   watch: {
-    sorting(filter) {
+    sorting(filter, oldFilter) {
       this.books = [ ...sortBy(this.books, filter) ]
     }
   },
