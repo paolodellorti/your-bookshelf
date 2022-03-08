@@ -51,11 +51,11 @@ export default {
     },
     goDetail(id) {
       this.show = false
-      setTimeout(() => this.$router.push({ name: 'DetailPage', params: { userId: this.$route.params.userId, bookId: id } }), 300)
+      setTimeout(() => this.$router.push({ name: 'DetailPage', params: { userId: this.$route.params.userId, bookId: id }}), 300)
     },
     goAdd() {
       this.show = false
-      setTimeout(() => this.$router.push({ name: 'AddPage', params: { userId: this.$route.params.userId } }), 300)
+      setTimeout(() => this.$router.push({ name: 'AddPage', params: { userId: this.$route.params.userId }}), 300)
     }
   },
   watch: {
@@ -64,10 +64,12 @@ export default {
     }
   },
   mounted() {
+    console.log(this.sorting);
     axios.get('db.json')
       .then(res => {
         this.books = [ ...res.data[this.$route.params.userId].books ]
         this.show = true
+        console.log(this.sorting);
       })
       .catch(err => console.log(err))
   }
