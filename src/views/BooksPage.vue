@@ -41,7 +41,7 @@ export default {
     return {
       books: [],
       show: false,
-      sorting: ''
+      sorting: 'title'
     }
   },
   methods: {
@@ -67,7 +67,6 @@ export default {
     axios.get('db.json')
       .then(res => {
         this.books = [ ...res.data[this.$route.params.userId].books ]
-        this.sorting = 'title'
         this.show = true
       })
       .catch(err => console.log(err))
